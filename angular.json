@@ -120,6 +120,10 @@
               "devServerTarget": "csf-day01-first-SPA:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
